@@ -1,0 +1,11 @@
+Rubyで動かすtwitter botのサンプルです。
+あくまでも、ひな形で、これをいじってbotを完成させてください。
+Rubyのtwitterとoauthのライブラリが必要です。
+
+動かし方:
+ 1:bot_prep.rbにプログラムにconsumer key/consumer secretを記述します。
+ 2:ruby  bot_prep.rbを実行します。
+ 3:URLが出力されるので、そのURLをブラウザでアクセスしてPINコードを取得してください。
+ 4:PINコードを入力します。access key/access secretが出力されます。
+ 5:bot.rb にconsumer key/consumer secretとaccess key/access secretを入力して、動かします。
+
